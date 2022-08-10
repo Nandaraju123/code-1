@@ -1,0 +1,5 @@
+from datetime import datetime
+
+date = datetime.now().strftime("%y_%m_%d-%I:%S:%M:%p")
+print(f"Devops codes_{date}")
+
